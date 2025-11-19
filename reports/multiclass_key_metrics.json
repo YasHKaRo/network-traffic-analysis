@@ -1,0 +1,38 @@
+{
+  "best_model": "XGBoost",
+  "best_accuracy": 0.820025225574852,
+  "test_set_size": 51535,
+  "number_of_attack_types": 10,
+  "attack_types": [
+    "Normal",
+    "Reconnaissance",
+    "Backdoor",
+    "DoS",
+    "Exploits",
+    "Analysis",
+    "Fuzzers",
+    "Worms",
+    "Shellcode",
+    "Generic"
+  ],
+  "all_models": {
+    "RandomForest": {
+      "accuracy": 0.7394974289317939,
+      "macro_precision": 0.5203660167400427,
+      "macro_recall": 0.6402602454102696,
+      "macro_f1": 0.5294198973198201
+    },
+    "XGBoost": {
+      "accuracy": 0.820025225574852,
+      "macro_precision": 0.7448289762765834,
+      "macro_recall": 0.5172146371515443,
+      "macro_f1": 0.5307275446773223
+    },
+    "LogisticRegression": {
+      "accuracy": 0.628000388085767,
+      "macro_precision": 0.3906494455808703,
+      "macro_recall": 0.5267113717349794,
+      "macro_f1": 0.37181226771619313
+    }
+  }
+}
