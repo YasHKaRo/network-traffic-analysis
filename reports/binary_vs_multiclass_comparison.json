@@ -1,0 +1,5 @@
+{
+  "binary_accuracy": 0.9356747841272921,
+  "multiclass_attack_accuracy": 0.7504782146652498,
+  "overall_multiclass_accuracy": 0.820025225574852
+}
