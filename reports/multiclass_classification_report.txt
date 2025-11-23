@@ -1,0 +1,31 @@
+
+ОТЧЕТ ПО МНОГОКЛАССОВОЙ КЛАССИФИКАЦИИ ТИПОВ АТАК
+============================================================
+
+ДАННЫЕ:
+- Общее количество записей: 257673
+- Количество признаков: 49
+- Количество типов атак: 10
+- Тренировочная выборка: 206138 записей
+- Тестовая выборка: 51535 записей
+
+ТИПЫ АТАК:
+['Normal', 'Reconnaissance', 'Backdoor', 'DoS', 'Exploits', 'Analysis', 'Fuzzers', 'Worms', 'Shellcode', 'Generic']
+
+РЕЗУЛЬТАТЫ:
+- Лучшая модель: XGBoost
+- Accuracy лучшей модели: 0.8200
+
+СРАВНЕНИЕ МОДЕЛЕЙ:
+- RandomForest: Accuracy = 0.7395
+- XGBoost: Accuracy = 0.8200
+- LogisticRegression: Accuracy = 0.6280
+
+СОХРАНЕННЫЕ ФАЙЛЫ:
+1. models/best_multiclass_classifier.joblib - лучшая модель + label encoder
+2. reports/multiclass_model_comparison.csv - сравнение моделей  
+3. reports/multiclass_key_metrics.json - детальные метрики
+4. reports/figures/ - визуализации
+
+ВЫВОД:
+Многоклассовая классификация завершена успешно! Модель готова к определению конкретных типов сетевых атак.
